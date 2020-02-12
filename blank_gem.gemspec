@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.metadata['changelog_uri'] = spec.homepage
 
   spec.files = Dir.glob('lib/**/*') + [
+    'CHANGELOG.md',
     'Gemfile',
     'LICENSE',
     'README.md',
